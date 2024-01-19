@@ -1,4 +1,4 @@
-![image](https://github.com/DataCiriano/Retos-programacion-Python/assets/147123439/18c66a9c-a4c8-4cc8-9f40-51fb47d1667b)
+![image](https://github.com/DataCiriano/Retos-programacion-Python/assets/147123439/d33563ee-18e9-4534-a848-b8c01279c9f9)
 
 # Welcome to my Python project repository!
 
