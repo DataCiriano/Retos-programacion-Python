@@ -22,32 +22,34 @@ def agenda():
                 Opción 3: Editar contacto existente
                 Opcion 4: Eliminar un contacto existente
                 Opcion 5: Salir\n""")
-            return int(input("Indique una opción: "))
+        menu()
 
-        opcion = menu()
+        opcion = int(input("Indique una opción: "))
+        
+        match opcion:
 
-        if opcion == 1:
-            agregar_contacto(dict_agenda)
+            case 1:
+                agregar_contacto(dict_agenda)
 
-        elif opcion == 2:
-            buscar_contacto(dict_agenda)
+            case 2:
+                buscar_contacto(dict_agenda)
 
-        elif opcion == 3:
-            editar_contacto(dict_agenda)
+            case 3:
+                editar_contacto(dict_agenda)
 
-        elif opcion == 4:
-            eliminar_contacto(dict_agenda)
+            case 4:
+                eliminar_contacto(dict_agenda)
 
-        elif opcion == 5:
-            print("¡Gracias por usar nuestra agenda! ¡Hasta luego!")
-            break
+            case 5:
+                print("¡Gracias por usar nuestra agenda! ¡Hasta luego!")
+                break
 
 
 def agregar_contacto(diccionario):
     nombre = input("Introduzca el nombre del nuevo contacto: ").lower().capitalize()
     telefono = input("Introduzca un número de teléfono de máximo 11 dígitos: ")
     
-    while not (telefono.isdecimal() and len(telefono) <= 11):
+    while not (telefono.isdecimal() and len(telefono) > 0 and len(telefono) <= 11):
         telefono = input("Número de teléfono inválido. Vuelva a intentarlo: ")
         
     diccionario[nombre] = telefono
