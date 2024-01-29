@@ -14,7 +14,7 @@
  * - También se debe proponer una operación de finalización del programa.
 """
 
-#-------Strings-------
+#-------Strings---------
 
 #Creación de una cadena de una sola línea o de varias
 cadena_caracteres = "Hola Mundo!!"
