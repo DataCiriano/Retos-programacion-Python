@@ -1,8 +1,6 @@
 #00 SINTAXIS, VARIABLES, TIPOS DE DATOS Y HOLA MUNDO
 """
-Dificultad: Fácil | Publicación: 26/12/23 | Corrección: 02/01/24
-Ejercicio
-/*
+*Ejercicio
  * ¿Preparad@ para aprender o repasar el lenguaje de programación que tú quieras?
  * - Recuerda que todas las instrucciones de participación están en el
  *   repositorio de GitHub.
@@ -24,7 +22,6 @@ Ejercicio
  *
  * ¿Fácil? No te preocupes, recuerda que esta es una ruta de estudio y
  * debemos comenzar por el principio.
- */
  """
  
  # https://www.python.org/
