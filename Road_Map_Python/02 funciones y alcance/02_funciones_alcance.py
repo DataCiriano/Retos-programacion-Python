@@ -1,5 +1,4 @@
 """
-/*
  * EJERCICIO:
  * - Crea ejemplos de funciones básicas que representen las diferentes
  *   posibilidades del lenguaje:
@@ -20,7 +19,6 @@
  *
  * Presta especial atención a la sintaxis que debes utilizar en cada uno de los casos.
  * Cada lenguaje sigue una convenciones que debes de respetar para que el código se entienda.
- */
 """
 
 # Función sin parámetros y sin retorno

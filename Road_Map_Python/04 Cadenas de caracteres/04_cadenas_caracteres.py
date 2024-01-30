@@ -1,5 +1,4 @@
 """
-/*
  * EJERCICIO:
  * Muestra ejemplos de todas las operaciones que puedes realizar con cadenas de caracteres
  * en tu lenguaje. Algunas de esas operaciones podrían ser (busca todas las que puedas):
@@ -12,7 +11,6 @@
  * - Palíndromos
  * - Anagramas
  * - Isogramas
- */
 """
  
 #Operaciones con cadenas de texto.

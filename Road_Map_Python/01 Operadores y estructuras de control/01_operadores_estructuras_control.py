@@ -1,5 +1,4 @@
 """
-/*
  * EJERCICIO:
  * - Crea ejemplos utilizando todos los tipos de operadores de tu lenguaje:
  *   Aritméticos, lógicos, de comparación, asignación, identidad, pertenencia, bits...
@@ -15,7 +14,6 @@
  * entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3.
  *
  * Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.
- */
 """
 
 # Operadores Aritméticos
