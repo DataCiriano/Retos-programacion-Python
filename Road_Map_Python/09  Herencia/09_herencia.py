@@ -11,7 +11,7 @@
  * Dependiendo de su labor, tienen propiedades y funciones exclusivas de su
  * actividad, y almacenan los empleados a su cargo.
 """
-#Crear l superclase Animal
+#Crear la superclase Animal
 class Animal():
     
     def __init__(self, name: str, age: int, color: str):
