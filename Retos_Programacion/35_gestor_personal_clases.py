@@ -6,7 +6,7 @@
     - Se crean funcionalidades diferentes para cada subclase sgún la naturaleza de su cargo dentro del organigrama de la compañía y las funciones de cada cargo
  
 """
-#Crear l superclase Animal
+#Crear la superclase Animal
 class Animal():
     
     def __init__(self, name: str, age: int, color: str):
